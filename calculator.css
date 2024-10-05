@@ -1,29 +1,29 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100;
-    background-color: white;
-    font-family: Arial, sans-serif;
+    align-content: center;
+    height: 100vh;
+    background-color: dimgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .calc {
-    background-color: black;
+    background-color: cornsilk;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
 }
 
 #display {
-    width: 100%;
+    width: 100px;
     height: 40px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: right;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
     margin-bottom: 10px;
-    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid coral;
+    border-radius: 5px;
 }
 
 .buttons {
@@ -33,17 +33,19 @@ body {
 }
 
 button {
-    background-color: white;
+    height: 60px;
+}
+
+button {
+    height: 60px;
+    font-size: 20px;
+    background-color: lightgray;
     color: black;
-    height: 50px;
-    font-size: 18px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: grey ;
-}
-
-button:active {
+button:hover{
     background-color: white;
 }
