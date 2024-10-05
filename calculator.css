@@ -1,29 +1,29 @@
 body {
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 100vh;
-    background-color: dimgray;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    height: 100;
+    background-color: mediumturquoise;
+    font-family: Arial, sans-serif;
 }
 
 .calc {
-    background-color: cornsilk;
+    background-color: lightgreen;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
 }
 
 #display {
-    width: 100px;
+    width: 100%;
     height: 40px;
-    font-size: 20px;
+    font-size: 24px;
     text-align: right;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid coral;
+    border: 1px solid white;
     border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .buttons {
@@ -33,19 +33,17 @@ body {
 }
 
 button {
-    height: 60px;
-}
-
-button {
-    height: 60px;
-    font-size: 20px;
-    background-color: lightgray;
+    background-color: white;
     color: black;
-    border: none;
-    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
     cursor: pointer;
 }
 
-button:hover{
-    background-color: white;
+button:hover {
+    background-color: grey ;
+}
+
+button:active {
+    background-color: gainsboro;
 }
